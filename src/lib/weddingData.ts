@@ -63,7 +63,7 @@ export const weddingData = {
       title: "Haldi & Mehendi",
       subtitle: "An evening of traditions and joy",
       date: "27 August 2026",
-      time: "6:00 PM",
+      time: "Haldi-10:00 AM &Mehandi-7:00 PM",
       venue: "Charvi Farm House",
       description:
         "An evening filled with music, flowers, laughter, and joyful blessings as we celebrate the beautiful beginning of our wedding festivities.",
@@ -71,8 +71,8 @@ export const weddingData = {
     {
       title: "Pellikuthuru / Pellikoduku",
       subtitle: "A cherished family tradition",
-      date: "29 August 2026",
-      time: "6:00 PM",
+      date: "28 & 29 August 2026",
+      time: "10:00 AM",
       venue: "Family Residence",
       description:
         "A beautiful traditional ceremony filled with love, laughter, blessings, and cherished moments with family.",
@@ -81,7 +81,7 @@ export const weddingData = {
       title: "Wedding Ceremony",
       subtitle: "The auspicious Muhurtham",
       date: "30 August 2026",
-      time: "10:30 AM",
+      time: "10:16 AM",
       venue: "Varahi Conventions",
       description:
         "Join us as we exchange vows and begin our beautiful journey together, surrounded by the love and blessings of our family and friends.",
