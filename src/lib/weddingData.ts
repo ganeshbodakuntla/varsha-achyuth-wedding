@@ -26,7 +26,7 @@ export const weddingData = {
   weddingDate: "30 August 2026",
   weddingTime: "10:16 AM",
   venue: {
-    name: "Sri Lakshmi Convention Hall",
+    name: "Varahi Convention Hall",
     address: "Hyderabad, Telangana, India",
     googleMapsUrl: "https://maps.app.goo.gl/Qi9vhhxw8XiAXNXq7",
     embedUrl:
