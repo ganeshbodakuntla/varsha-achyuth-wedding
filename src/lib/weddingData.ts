@@ -25,12 +25,21 @@ export const weddingData = {
   weddingDateISO: "2026-08-30T10:16:00+05:30",
   weddingDate: "30 August 2026",
   weddingTime: "10:16 AM",
+  receptionDate: "1 September 2026",
+  receptionTime: "7:00 PM",
   venue: {
     name: "Varahi Convention Hall",
     address: "Hyderabad, Telangana, India",
     googleMapsUrl: "https://maps.app.goo.gl/Qi9vhhxw8XiAXNXq7",
     embedUrl:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.0923933501967!2d78.19627827515717!3d17.503102399461365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcbefd60570de83%3A0x78881fc51d37d2d5!2sVarahi%20Conventions!5e0!3m2!1sen!2sin!4v1787675274872!5m2!1sen!2sin",
+  },
+  receptionVenue: {
+    name: "Hums-Tans Convention & Banquets",
+    address: "Hyderabad, Telangana, India",
+    googleMapsUrl: "https://maps.app.goo.gl/RMzYn8k8nAA7WiCi7",
+    embedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3892.747392174011!2d78.49065317526998!3d17.57419688334514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb85000f12a51d%3A0xd9eca0447dadabf6!2sHums-Tans%20Conventions%20%26%20Banquets!5e1!3m2!1sen!2sin!4v1787678999027!5m2!1sen!2sin",
   },
   family: {
     bride: ["Mr. & Mrs. Nagarani & Subhan Reddy"],

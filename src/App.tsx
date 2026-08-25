@@ -87,6 +87,7 @@ function App() {
             <a href="#events">Events</a>
             <a href="#gallery">Gallery</a>
             <a href="#venue">Venue</a>
+            <a href="#reception">Reception</a>
             <a href="#rsvp">RSVP</a>
           </nav>
         </div>
@@ -438,6 +439,56 @@ function App() {
                 <iframe
                   title="Wedding venue map"
                   src={weddingData.venue.embedUrl}
+                  className="h-full min-h-[340px] w-full border-0 grayscale-[.15]"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          id="reception"
+          className="bg-[#f1e5d1] px-5 py-28 text-[#40101b] md:py-36">
+          <div className="mx-auto max-w-6xl">
+            <SectionTitle
+              eyebrow="Join us for the celebration"
+              title="The Reception Venue"
+              telugu="విందు వేడుకకు సాదర ఆహ్వానం"
+            />
+
+            <div className="grid overflow-hidden rounded-[1.5rem] border border-[#a47c31]/30 bg-[#f8efe2] shadow-[0_25px_80px_rgba(70,25,25,.13)] lg:grid-cols-2">
+              <div className="p-8 md:p-12">
+                <div className="flex h-14 w-14 items-center justify-center rounded-full bg-[#4b101d] text-[#e6c76c]">
+                  <Navigation size={20} />
+                </div>
+
+                <h3 className="mt-7 font-display text-5xl">
+                  {weddingData.receptionVenue.name}
+                </h3>
+
+                <p className="mt-5 flex gap-3 text-sm leading-7 text-[#6d5c61]">
+                  <MapPin className="mt-1 shrink-0 text-[#9a7228]" size={18} />
+                  {weddingData.receptionVenue.address}
+                </p>
+
+                <p className="mt-4 flex gap-3 text-sm text-[#6d5c61]">
+                  <CalendarPlus className="text-[#9a7228]" size={18} />
+                  {weddingData.receptionDate} · {weddingData.receptionTime}
+                </p>
+
+                <a
+                  href={weddingData.receptionVenue.googleMapsUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-8 inline-flex rounded-full bg-[#4b101d] px-7 py-3 text-[10px] font-semibold uppercase tracking-[.25em] text-[#f4dfaa]">
+                  Get directions
+                </a>
+              </div>
+
+              <div className="min-h-[340px] bg-[#ddd0bb]">
+                <iframe
+                  title="Reception venue map"
+                  src={weddingData.receptionVenue.embedUrl}
                   className="h-full min-h-[340px] w-full border-0 grayscale-[.15]"
                   loading="lazy"
                 />
